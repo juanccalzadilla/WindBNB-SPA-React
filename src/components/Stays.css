@@ -1,0 +1,61 @@
+.border-r{
+    border-radius: 30px;
+}
+*{
+    font-family: 'Kanit',sans-serif;
+}
+
+.star-color{
+    color:#EB5757;
+    margin-right: 5px;
+}
+
+.superhost{
+    border: 1px solid #EB5757;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px;
+    font-size: 10px;
+    color: #EB5757;
+    border-radius:40px;
+    box-shadow:-1px 0px 14px -1px rgba(235,87,87,0.44);
+    transition:all 0.3s ease-in-out;
+    
+}
+.superhost:hover{
+    border: 1px solid transparent;
+    background: #EB5757;
+    color: white;
+    box-shadow:none;
+
+}
+
+img{
+    transition: transform 0.4s;
+    overflow: hidden;
+}
+
+img:hover{
+    transform: scale(0.9);
+}
+
+.color{
+    color: #A1A1A1!important;
+    font-weight: 400;
+}
+
+.colorb{
+    color: black !important;
+}
+
+
+
+.btn-red{
+    background: #EB5757;
+    color: white;
+    width:100px
+}
+.btn-red:hover{
+    color: white;
+    background: rgb(243, 91, 91);
+}
